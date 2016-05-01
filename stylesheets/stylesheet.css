@@ -7,7 +7,7 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #606c71; }
+  color: #606c71;}
 
 a {
   color: #0000ff;
@@ -15,8 +15,8 @@ a {
   font-style: italic;
   /*font-weight: bold;*/
 }
-  a:hover {
-    text-decoration: underline; }
+a:hover {
+  text-decoration: underline; }
 
 .btn {
   display: inline-block;
@@ -59,35 +59,35 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #dd6020;
-  background-image: linear-gradient(80deg, #dd6020, #158888); }
+  background-color: #000000;
+  background-image: linear-gradient(160deg, #000000, #158888); }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 20em) and (max-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 1rem 1rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
-    padding: 3rem 4rem; } }
+    padding: 1rem 1rem; } }
 
 @media screen and (max-width: 42em) {
   .page-header {
-    padding: 2rem 1rem; } }
+    padding: 1rem 1rem; } }
 
-.project-name {
+.page-name {
   margin-top: 0;
   margin-bottom: 0.1rem; }
 
 @media screen and (min-width: 64em) {
-  .project-name {
+  .page-name {
     font-size: 3.25rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
-  .project-name {
+  .page-name {
     font-size: 2.25rem; } }
 
 @media screen and (max-width: 42em) {
-  .project-name {
+  .page-name {
     font-size: 1.75rem; } }
 
 .project-tagline {
